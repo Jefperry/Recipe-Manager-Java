@@ -13,23 +13,19 @@ import java.util.Map;
 
 /**
  * Represents a bread recipe with its required ingredients and quantities
- * <p>
  * This class acts as a data container for bread recipes. Each recipe has:
- * <ul>
- *   <li>A unique name (e.g., "Brioche")</li>
- *   <li>A map of ingredients to their required quantities per loaf</li>
- * </ul>
+ * 
+ *  A unique name (e.g., "Brioche")
+ *  A map of ingredients to their required quantities per loaf
+ * 
  * Quantities are stored as {@code double} values to accommodate both:
- * <ul>
- *   <li>Weight-based measurements (e.g., grams of flour)</li>
- *   <li>Count-based measurements (e.g., number of eggs)</li>
- * </ul>
+ *   Weight-based measurements (e.g., grams of flour)
+ *   Count-based measurements (e.g., number of eggs)
  * This class provides methods to:
- * <ul>
- *   <li>Add ingredients to the recipe</li>
- *   <li>Retrieve ingredient quantities</li>
- *   <li>Get the recipe's name and full ingredient list</li>
- * </ul>
+ * Add ingredients to the recipe
+ * Retrieve ingredient quantities
+ *  Get the recipe's name and full ingredient list
+ * 
  */
 public class Recipe {
     private String name;
