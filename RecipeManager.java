@@ -87,10 +87,8 @@ public class RecipeManager {
 
     /**
      * Calculates total ingredients required for multiple bread orders.
-     * <p>
      * Multiplies each recipe's ingredients by the order quantity and aggregates
      * across all recipes. Automatically excludes ingredients with 0 total quantity.
-     *
      * @param orders Map of recipes to order quantities
      * @return Map of ingredient names to total required quantities
      */
@@ -114,15 +112,11 @@ public class RecipeManager {
     }
 
     /**
-     * Saves a formatted shopping list to a text file.
-     * <p>
-     * The output file will contain:
-     * <ul>
-     *   <li>List of ordered recipes with quantities</li>
-     *   <li>Total ingredients required</li>
-     *   <li>Special formatting for eggs (count vs. weight)</li>
-     * </ul>
-     *
+     *   Saves a formatted shopping list to a text file.
+     *   The output file will contain:
+     *   List of ordered recipes with quantities
+     *   Total ingredients required
+     *  Special formatting for eggs (count vs. weight)
      * @param orders  Map of recipes to order quantities
      * @param filename Output file name (e.g., "shoppinglist.txt")
      * @throws IOException If file writing fails
